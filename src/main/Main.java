@@ -71,10 +71,9 @@ public class Main {
 	 for (CoworkingSpace space : coworkingSpaces) {
 		 space.displayInfo();
 	 }
-	 
+	
 	 System.out.println("Choose the place you want to erase");
 	 int id = scanner.nextInt();
-	 
 	 CoworkingSpace selectedSpace = null;
 	 
 	 for (CoworkingSpace space: coworkingSpaces) {
