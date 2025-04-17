@@ -24,14 +24,6 @@ public class CoworkingSpace {
 		return name;
 	}
 	
-	public String getType() {
-		return type;
-	}
-	
-	public double getPrice () {
-		return price;
-	}
-	
 	public void displayInfo () {
 		System.out.println("ID: " + id + " Name: " + name + " Type: " + type + " Price: " + price + " Availability: " + isAvailable);
 	}
