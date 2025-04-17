@@ -22,7 +22,14 @@ import java.io.IOException;
 class SpaceNotFoundException extends Exception {
     public SpaceNotFoundException(String message) {
         super(message);
+       
     }
+}
+
+class King{
+	public void sysOut () {
+		System.out.println("hello");
+	}
 }
 
 public class Main {
@@ -44,6 +51,8 @@ public class Main {
                 break;
             }
         }
+        
+        System.out.println("Custom exception");
     }
 
     static void adminLogin() {
