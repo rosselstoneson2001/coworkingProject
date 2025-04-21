@@ -1,19 +1,19 @@
 package user;
 
-public class User {
-	protected String username;
-	protected String role;
+public class User <T>{
+	protected T username;
+	protected T role;
 	
- public	User (String username, String role) {
+ public	User (T username, T role) {
 	 this.username = username;
 	 this.role = role;
  }
  
- public String getUsername () {
+ public T getUsername () {
 	 return username;
  }
  
- public String getRole() {
+ public T getRole() {
 	 return role;
  }
  
